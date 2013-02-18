@@ -28,5 +28,11 @@ function replaceUnits(rootPattern, unitPattern, distancePattern) {
     })
 }
 
-replaceUnits('.activityMonth','.distanceUnit','.distance');
-replaceUnits('#statsDistance','.unitText','.mainText');
+if(!window.bookmarklet) {
+    window.bookmarklet={}
+}
+window.bookmarklet["toggleunits"] = function() {
+    replaceUnits('.activityMonth','.distanceUnit','.distance');
+    replaceUnits('#statsDistance','.unitText','.mainText');
+}
+window.bookmarklet["toggleunits"]()

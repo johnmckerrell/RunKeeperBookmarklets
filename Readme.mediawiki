@@ -5,11 +5,9 @@ A collection of Bookmarklets to run against RunKeeper's website to add functiona
 ## Toggle Units
 
 This bookmarklet will toggle the units used on the page between metric and imperial.
-<p>
 
 To use the units switching bookmarklet, add the following link to your bookmarks and then press it when on the RunKeeper site:
- * [Toggle Units](javascript:(function(){if(window.bookmarklet&&window.bookmarklet["toggleunits"]){window.bookmarklet["toggleunits"]()}else{var script = document.createElement("script");script.type="text/javascript";script.src="https://raw.github.com/johnmckerrell/RunKeeperBookmarklets/master/runkeeper-units.js?"+Math.random();document.getElementsByTagName("head")[0].appendChild(script);}})())
+ * [javascript:(function(){if(window.bookmarklet&&window.bookmarklet["toggleunits"]){window.bookmarklet["toggleunits"]()}else{window.mkescript=document.createElement("script");window.mkescript.type="text/javascript";window.mkescript.src="https://raw.github.com/johnmckerrell/RunKeeperBookmarklets/master/runkeeper-units.js?"+Math.random();document.getElementsByTagName("head")[0].appendChild(window.mkescript);window.mkescript=undefined;}})() Toggle Units]
  * [Toggle Units]<javascript:(function(){if(window.bookmarklet&&window.bookmarklet["toggleunits"]){window.bookmarklet["toggleunits"]()}else{var script = document.createElement("script");script.type="text/javascript";script.src="https://raw.github.com/johnmckerrell/RunKeeperBookmarklets/master/runkeeper-units.js?"+Math.random();document.getElementsByTagName("head")[0].appendChild(script);}})()>
  * <javascript:(function(){if(window.bookmarklet&&window.bookmarklet["toggleunits"]){window.bookmarklet["toggleunits"]()}else{var script = document.createElement("script");script.type="text/javascript";script.src="https://raw.github.com/johnmckerrell/RunKeeperBookmarklets/master/runkeeper-units.js?"+Math.random();document.getElementsByTagName("head")[0].appendChild(script);}})()>
- </p>
  * <a href="javascript:(function(){if(window.bookmarklet&&window.bookmarklet['toggleunits']){window.bookmarklet["toggleunits"]()}else{var script = document.createElement('script');script.type='text/javascript';script.src='https://raw.github.com/johnmckerrell/RunKeeperBookmarklets/master/runkeeper-units.js?'+Math.random();document.getElementsByTagName('head')[0].appendChild(script);}})())">Toggle Units</a>
